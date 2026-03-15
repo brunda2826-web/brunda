@@ -119,7 +119,7 @@ nav a:hover::after {
 }
 /* Make each section full viewport height and add padding */
 .section {
-  min-height: 100vh;        /* each section fills the screen */
+  min-height: 90vh;        /* each section fills the screen */
   padding:  80px;      /* space inside section */
   transition: background-color 0.5s ease, color 0.5s ease;
 }
@@ -131,6 +131,11 @@ nav a:hover::after {
 }
 
 #about {
+
+  margin: 0 auto;
+  text-align:left;
+  padding:100px;
+  text-align:left;
     font-size:20px;
     line-height:1.6;
   background-color: #8cb3b8;  /* light blue */
@@ -138,24 +143,37 @@ nav a:hover::after {
 }
 
 #skills {
+ margin: 0 auto;
+  text-align:left;
+  padding:100px;
+  text-align:left;
     font-size:20px;
     line-height:1.6;
-  background-color:#527579;  /* very light cyan/blue */
-  color: black;
+  background-color: #8cb3b8;  /* light blue */
+  color: black;  
 }
 
 #education {
+  margin: 0 auto;
+  text-align:left;
+  padding:100px;
+  text-align:left;
     font-size:20px;
     line-height:1.6;
-  background-color: #8cb3b8;  /* pale yellow-green */
-  color: black;
+  background-color: #8cb3b8;  /* light blue */
+  color: black;  
 }
 
 #contact {
+  
+    margin: 0 auto;
+  text-align:left;
+  padding:100px;
+  text-align:left;
     font-size:20px;
     line-height:1.6;
-  background-color:#527579;  /* light peach */
-  color: black;
+  background-color: #8cb3b8;  /* light blue */
+  color: black;  
 }
 .highlighted{
     font-size:20px;
@@ -172,4 +190,7 @@ font-weight:750;
   color: #eceef5;        /* matches your theme */
   z-index: 1000;         /* ensure it’s on top */
   pointer-events: none;  /* allows clicks to pass through */
+}
+.coo{
+  color:rgb(5, 5, 49);
 }
