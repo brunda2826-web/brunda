@@ -106,6 +106,7 @@ nav a:hover::after {
 .image {
   width: 240px;
   height: 240px;
+  max-width:90vw;
   overflow: hidden;
   border-radius: 50%;
   
@@ -166,14 +167,10 @@ nav a:hover::after {
 
 #contact {
   
-    margin: 0 auto;
-  text-align:left;
-  padding:100px;
-  text-align:left;
     font-size:20px;
     line-height:1.6;
-  background-color: #8cb3b8;  /* light blue */
-  color: black;  
+  background-color:#527579;  /* light peach */
+  color: black;
 }
 .highlighted{
     font-size:20px;
